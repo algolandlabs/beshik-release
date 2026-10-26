@@ -1,0 +1,8 @@
+[beshik]
+name=beshik
+baseurl=https://algolandlabs.github.io/beshik-release/rpm
+enabled=1
+# The repository metadata is signed and lists every package's checksum.
+repo_gpgcheck=1
+gpgcheck=0
+gpgkey=https://algolandlabs.github.io/beshik-release/key.asc

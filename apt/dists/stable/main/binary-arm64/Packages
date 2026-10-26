@@ -1,0 +1,152 @@
+Package: beshik
+Architecture: arm64
+Version: 0.1.0
+Priority: optional
+Section: admin
+Maintainer: AlgoLand
+Installed-Size: 20002
+Recommends: git, docker-ce | docker.io, caddy
+Filename: pool/main/beshik_0.1.0_arm64.deb
+Size: 8143274
+MD5sum: bd7b4af4d8a00b7800aa859d5708bf87
+SHA1: a2295174988101d9e1f7308f1e683f01ef6dd132
+SHA256: 99b6f6c6d40a65ace6bdf551280721d2bb73850f71b8ba51ef1359f5c4bfb027
+SHA512: 045b29999a8e7ddf8069cb18506b4fd57b2a1c3e703faa9523664da31a8786d9203d57778de2d17953065dcd7d0a806dfe90feb7f96c5f3cf110f15cf9ff9644
+Homepage: https://github.com/algolandlabs/beshik-release
+Description: Self-hosted single-server PaaS and its command-line client
+ Push to git, and apps are built and served on your own server. The same binary is the server
+ (set it up with `sudo beshik init`) and the command-line client.
+
+Package: beshik
+Architecture: arm64
+Version: 0.1.1
+Priority: optional
+Section: admin
+Maintainer: AlgoLand
+Installed-Size: 20002
+Recommends: git, docker-ce | docker.io
+Filename: pool/main/beshik_0.1.1_arm64.deb
+Size: 8167466
+MD5sum: ef209a75e8d0ff16d28460e7b5f1afdf
+SHA1: 097c6d264ae4f0837b68b8ffbc22bd7de3d0c547
+SHA256: 93a5b6539bc06d3356f0b13594fa40d682ac45d518a6e5de4ac983e64e4498b4
+SHA512: 2a8bcae53f8afdc3643e24cd2608a1d1b1a9aa849f6f37c3f7316313ae9a0631439fd35450ff1ad033f8e8a460314c3f87a6f82610caa111b7dfb8267bc00ffd
+Homepage: https://github.com/algolandlabs/beshik-release
+Description: Self-hosted single-server PaaS and its command-line client
+ Push to git, and apps are built and served on your own server. The same binary is the server
+ (set it up with `sudo beshik init`) and the command-line client.
+
+Package: beshik
+Architecture: arm64
+Version: 0.1.2
+Priority: optional
+Section: admin
+Maintainer: AlgoLand
+Installed-Size: 20130
+Recommends: git, docker-ce | docker.io
+Filename: pool/main/beshik_0.1.2_arm64.deb
+Size: 8229864
+MD5sum: d7b6fa8c9d2bc0bad0a6011793232adc
+SHA1: 1b982ea68a059fb00e4e6ce89fefdd3fa35e6e7d
+SHA256: 46157a4186116033953394f5eef940deb941314403605d8fc8ac6053b12de917
+SHA512: afb04b0042cbe81f939200d2d09472e8430c1a9a6ebda957a8b5133318850981e4ad3df22ae900b3d7cfebf400216cbf4042c84614992d1ef09e1ecd7e1a51d0
+Homepage: https://github.com/algolandlabs/beshik-release
+Description: Self-hosted single-server PaaS and its command-line client
+ Push to git, and apps are built and served on your own server. The same binary is the server
+ (set it up with `sudo beshik init`) and the command-line client.
+
+Package: beshik
+Architecture: arm64
+Version: 0.1.3
+Priority: optional
+Section: admin
+Maintainer: AlgoLand
+Installed-Size: 20258
+Recommends: git, docker-ce | docker.io
+Filename: pool/main/beshik_0.1.3_arm64.deb
+Size: 8258422
+MD5sum: 7dd5a1d8d5e9f4fc878b17a64498d89e
+SHA1: ac8a8892dcaad81930170e956babfe91cb7c3dfa
+SHA256: f6f480b8019d6fb1468dbfcc8f00f80d60b17f91ea84178d242e39a06011f9ee
+SHA512: fa0a36bcf57d2f9ac6ce72cf1d78f8c58db3d0b8000ee187e0baf1336d10a5f5451317660dcaa6bebb050cb9571741491d5b1ad25d2d1b96a080fe200106996b
+Homepage: https://github.com/algolandlabs/beshik-release
+Description: Self-hosted single-server PaaS and its command-line client
+ Push to git, and apps are built and served on your own server. The same binary is the server
+ (set it up with `sudo beshik init`) and the command-line client.
+
+Package: beshik
+Architecture: arm64
+Version: 0.2.0
+Priority: optional
+Section: admin
+Maintainer: AlgoLand
+Installed-Size: 21090
+Recommends: git, docker-ce | docker.io
+Filename: pool/main/beshik_0.2.0_arm64.deb
+Size: 8443226
+MD5sum: e8dac4cb3086c3b89bac299493a5cf7b
+SHA1: 6ae5b3385ea5d202c5ed51ae98a497f69bbc334f
+SHA256: d8c5cc33f335ec03115dd6af2e1b9b1ef28c8279d8fc30eb0612e24a84ae04bf
+SHA512: aaaf57a8345eedd903e5ee365569185b947c2ba9877d86fbd09df1c123a800f757af619297200a2f587531fc6710c8d2dabb374772d9a933986218c81508aa74
+Homepage: https://github.com/algolandlabs/beshik-release
+Description: Self-hosted single-server PaaS and its command-line client
+ Push to git, and apps are built and served on your own server. The same binary is the server
+ (set it up with `sudo beshik init`) and the command-line client.
+
+Package: beshik
+Architecture: arm64
+Version: 0.3.0
+Priority: optional
+Section: admin
+Maintainer: AlgoLand
+Installed-Size: 21282
+Recommends: git, docker-ce | docker.io
+Filename: pool/main/beshik_0.3.0_arm64.deb
+Size: 8492268
+MD5sum: f9dcd6da678d103c1c137dece9a43fa5
+SHA1: 285b86231c34249a83db2eae720d5c5ffcaadd32
+SHA256: cb2f9d3ceb8a0ae5653f901d0da4b1f1a52aee17dd654fbb0b247f2fa3fb718b
+SHA512: c664a357dc3b4021d9f6fffa7e8d1e72f19d3819cc9c32ca4c1f950d9eda89a8d3fda95aa2ab2de64042a41ae33effd9f8c0bcd2ba3c5d1a2aea0dc90374cda4
+Homepage: https://github.com/algolandlabs/beshik-release
+Description: Self-hosted single-server PaaS and its command-line client
+ Push to git, and apps are built and served on your own server. The same binary is the server
+ (set it up with `sudo beshik init`) and the command-line client.
+
+Package: beshik
+Architecture: arm64
+Version: 0.3.1
+Priority: optional
+Section: admin
+Maintainer: AlgoLand
+Installed-Size: 21346
+Recommends: git, docker-ce | docker.io
+Filename: pool/main/beshik_0.3.1_arm64.deb
+Size: 8529546
+MD5sum: 41af3a15fd2649fde75806e38d3c9342
+SHA1: e7b46ab19ed4a17759977527c134123d988a0f51
+SHA256: e5c5f8884c8decb819efe07d0b69b0574fd32b4235564d78050ff4533d9bf291
+SHA512: f7073365db073e5a85e17c11dd6f4177d513edafc813f4e280150d00ddd63b5d824cd1ee2a9339b270865b3d074bded721aa79682d6147c2434e2253c864576b
+Homepage: https://github.com/algolandlabs/beshik-release
+Description: Self-hosted single-server PaaS and its command-line client
+ Push to git, and apps are built and served on your own server. The same binary is the server
+ (set it up with `sudo beshik init`) and the command-line client.
+
+Package: beshik
+Architecture: arm64
+Version: 0.3.2
+Priority: optional
+Section: admin
+Maintainer: AlgoLand
+Installed-Size: 21538
+Recommends: git, docker-ce | docker.io
+Filename: pool/main/beshik_0.3.2_arm64.deb
+Size: 8579310
+MD5sum: be3dfa973b01f556588947a87b9df052
+SHA1: 8aa7b4a7d5c07fea889e92a8374aafe2e342e72d
+SHA256: c5e3c191fafc936c6e3ec6dd424aa44636941c7c09e8d7201447e927bffae119
+SHA512: 286f2844bba27182a5b863dff1c665e799d4ef474842c0fcbde8594c63ab3e90097717ad29e74d6d4376b0ce6b06d1a271d24bfce12dcd8398bfe158e36ada13
+Homepage: https://github.com/algolandlabs/beshik-release
+Description: Self-hosted single-server PaaS and its command-line client
+ Push to git, and apps are built and served on your own server. The same binary is the server
+ (set it up with `sudo beshik init`) and the command-line client.
+

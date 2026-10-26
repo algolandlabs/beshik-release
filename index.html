@@ -1,0 +1,51 @@
+<!doctype html>
+<!-- The page of https://algolandlabs.github.io/beshik-release/, written by packaging/release/publish.sh
+     next to the apt and dnf repositories. It holds install commands only, no code. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>beshik packages</title>
+<style>
+	:root { color-scheme: light dark; --fg: #1a1a1a; --bg: #ffffff; --code: #f2f2f2; }
+	@media (prefers-color-scheme: dark) { :root { --fg: #e8e8e8; --bg: #141414; --code: #232323; } }
+	body { margin: 0 auto; max-width: 46rem; padding: 2rem 1rem; font: 16px/1.5 system-ui, sans-serif; color: var(--fg); background: var(--bg); }
+	pre { background: var(--code); padding: 0.75rem 1rem; overflow-x: auto; border-radius: 6px; }
+</style>
+</head>
+<body>
+<h1>beshik</h1>
+<p>A self-hosted PaaS for one server. The same binary is the server and the command-line client.</p>
+
+<h2>Debian and Ubuntu</h2>
+<pre>curl -fsSL https://algolandlabs.github.io/beshik-release/key.asc | sudo gpg --dearmor -o /etc/apt/keyrings/beshik.gpg
+echo "deb [signed-by=/etc/apt/keyrings/beshik.gpg] https://algolandlabs.github.io/beshik-release/apt stable main" | sudo tee /etc/apt/sources.list.d/beshik.list
+sudo apt update &amp;&amp; sudo apt install beshik</pre>
+
+<h2>Fedora, RHEL and others with dnf</h2>
+<pre>sudo curl -fsSLo /etc/yum.repos.d/beshik.repo https://algolandlabs.github.io/beshik-release/rpm/beshik.repo
+sudo dnf install beshik</pre>
+
+<h2>macOS and Linux with Homebrew</h2>
+<pre>brew install algolandlabs/beshik/beshik</pre>
+
+<h2>snap (the client only)</h2>
+<pre>sudo snap install beshik</pre>
+
+<h2>Set up a server</h2>
+<pre>sudo beshik init</pre>
+<p>Then point two DNS records straight at the server: <code>*.&lt;root&gt;</code> and
+<code>*.dev.&lt;root&gt;</code> (A, and AAAA with IPv6). No proxy or CDN in front: with Cloudflare,
+set them to "DNS only".</p>
+
+<h2>Upgrading</h2>
+<pre>sudo apt update && sudo apt upgrade beshik     # Debian, Ubuntu
+sudo dnf upgrade beshik                         # Fedora, RHEL
+brew upgrade beshik                             # Homebrew</pre>
+<p>On a server the package restarts beshik on the new version; running apps keep serving.</p>
+
+<p>Archives for every platform, with signed checksums:
+<a href="https://github.com/algolandlabs/beshik-release/releases">releases</a>.
+Free to use; see the license in each package. Copyright &copy; 2026 AlgoLand.</p>
+</body>
+</html>

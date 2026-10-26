@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Architectures: amd64 arm64
+Codename: stable
+Components: main
+Date: Mon, 26 Oct 2026 18:12:57 +0000
+Label: beshik
+Origin: AlgoLand
+Suite: stable
+MD5Sum:
+ 0beff51382efa1db762d17628e82859d              144 Release
+ bc6cabdf10acf6ff8f4a6dce5b460eb4             6503 main/binary-amd64/Packages
+ 060b5efe09fb2900dbc3b47413183454             1924 main/binary-amd64/Packages.gz
+ 4134cd6f23a81757aa89438634f5f423             6503 main/binary-arm64/Packages
+ 8311d62c2fa0f5c79f94b4ddad282eda             1917 main/binary-arm64/Packages.gz
+SHA1:
+ ba3e303fd7413171c98fa1f00503993518c28379              144 Release
+ 2d03888aeadeb4d2a4d42b06874108277301ae36             6503 main/binary-amd64/Packages
+ 333bca0af59698d487cd0400a09504010984a7a0             1924 main/binary-amd64/Packages.gz
+ 944cd0c756a82c3c13aef7e5af3ab51cf673d969             6503 main/binary-arm64/Packages
+ f1896fcc3e522df2ba87d0b35c20b14097fb745b             1917 main/binary-arm64/Packages.gz
+SHA256:
+ dfdb798634ea2ec19276b662b08506ae57d0bb1d8097f015b1d107dd8d579581              144 Release
+ 1611ad41af035901eacfb9efbda61a00756566e4665032e6e8c4b660a8e16196             6503 main/binary-amd64/Packages
+ 788e60b1d372cfa140ac0568370f03dd5072445275fdd1a9c96cb91a1d07e2b9             1924 main/binary-amd64/Packages.gz
+ d306a01373bb2fb0b05e9a0e317df0187a367fbbe7c1199747240991ef2fb26b             6503 main/binary-arm64/Packages
+ 16d3d5fc7cd3c9bff90ef22945e47692d2bb77426c75f244ab022ea1f8d933c4             1917 main/binary-arm64/Packages.gz
+SHA512:
+ 159b3970bf5ed204b03eda41773dde49aeec9e306f844d1efab52563063483637248d816e39699aadf4855a5f0872cd3731684111d9cb4b445778abf9b1822d0              144 Release
+ 57d157010ade7408b4678b8cbe148796814f970e7a80b5571a486537913dad03c0656bbc8f835b3bdc56b4fd1cfbf72ab198fd3cd8fab6d4443e5ec1924ce6bf             6503 main/binary-amd64/Packages
+ 1dfc8e4d69753d26a18cc5d207ba24cc8980d379acae6fc7c853f665fb00aae194101845d563890c45d3f40902f09b00fc905ddd54faf44697069c0a6d681371             1924 main/binary-amd64/Packages.gz
+ 7fe406defad3a148cc936d01945c9fcbd920143861ea3319f061c581cbb7c02c88b4d2b6730cc23890448a3d6f68591be129699e39e0411174ef1370e44e9643             6503 main/binary-arm64/Packages
+ 4b5e1f832c7412aeda2a531d1602feada405e6ea3ba7e4ad338fb4db4c7c4afa5b8d3a942ebfe87794677507dfdcbcfb2eb6175a18948663bcf2a93f3adeed33             1917 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQSHs9ODjjQkwasmrlAKnCituCB1AwUCat+YKQAKCRAKnCituCB1
+A9QKAQCWPC9CbcJ11RatVfYfH1XidV2B+TMm1o/zdIQSqhTHGAEAyhK9cx9KJ06g
+1ao24iNypz+lkAnuYD03tn1KwKPtpAU=
+=n1g2
+-----END PGP SIGNATURE-----
